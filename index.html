@@ -4,28 +4,90 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!--Style & Favicon-->
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style/style.css">
+
+  <!--Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap" rel="stylesheet"> 
+
   <title>Frontend Mentor | Meet landing page</title>
 </head>
 <body>
-  Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
+  
+  <main id="main">
 
-  Download v1.3
-  What is it?
+    <!-- header -->
+    <header>
+      <div class="container header-container">
+        <span class="logo"><img src="/assets/logo.svg" alt="logo"></span>         
+        <div class="header-image--container">
+            <img class="header-image header-image--left" src="/assets/desktop/image-hero-left.png" alt="image of people">
+            <img class="header-image header-image--right" src="/assets/desktop/image-hero-right.png" alt="image of people">
+        </div>
+        <div class="header-txt--container">
+          <h1 class="header-title">Group Chat for Everyone</h1>
+          <p class="header-txt">Meet makes it easy to connect with others face-to-face virtually 
+            and collaborate across any device.
+          </p>
+        </div>
+        <div class="btn-container">
+          <a class="btn btn-download" href="">Download <span class="highlight">v1.3</span></a>
+          <a class="btn btn-info" href="">What is it?</a>
+        <div>
+      </div>
+    </header>
 
-  01
-  Built for modern use
+    <!--number graphic-->
+    <div class="numbering numbering-one">01
+      <hr class="line">
+    </div>
 
-  Smarter meetings, all in one place
+    <!-- portfolio -->
+    <section id="portfolio">
+      <div class="container portfolio-container">
+        <img class="portfolio-item" src="/assets/desktop/image-woman-in-videocall.jpg" 
+        alt="image-woman-in-videocall">
+        <img class="portfolio-item" src="/assets/desktop/image-women-videochatting.jpg" 
+        alt="image-women-videochatting">
+        <img class="portfolio-item" src="/assets/desktop/image-men-in-meeting.jpg" 
+        alt="image-men-in-meeting">
+        <img class="portfolio-item" src="/assets/desktop/image-man-texting.jpg" 
+        alt="image-man-texting">
+      </div>
+    </section>
 
-  Send messages, share files, show your screen, and record your meetings — all in one 
-  workspace. Control who can join with invite-only team access, data encryption, and data export.
+    <!-- description -->
+    <section id="description">
+      <div class="container description-container">
+        <h3 class="description-overline">Built for modern use</h3>
+        <h2 class="description-title">Smarter meetings, all in one place</h2>
+        <p class="description-txt">Send messages, share files, show your screen, and record your meetings — all 
+          in one workspace. Control who can join with invite-only team access, data encryption, 
+          and data export.
+        </p>
+      </div>
+    </section>
 
-  02
-  Experience more together
-  Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
+    <!--number graphic-->
+    <div class="numbering numbering-two">02
+      <hr class="line">
+    </div>
 
-  Download v1.3
+    <!-- footer -->
+    <footer>
+      <div class="container footer-container">
+        <h2 class="footer-title">Experience more together</h2>
+        <p class="footer-txt">Stay connected with reliable HD meetings and unlimited 
+          one-on-one and group video sessions.
+        </p>
+        <a class="btn btn-download btn-download--footer" href="">Download<span class="highlight-footer"> v1.3</span></a>
+      </div>
+    </footer>
+
+  </main>
+
 </body>
 </html>
