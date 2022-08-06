@@ -17,7 +17,7 @@ This is a solution to the [Meet landing page challenge on Frontend Mentor](https
 
 ### The challenge
 
-The Challenge was to build out a landing page and get it looking as close to the design as possible.
+The Challenge was to build out a landing page and get it looking as close to the design as possible..
 
 Users should be able to:
 
