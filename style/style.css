@@ -4,14 +4,12 @@
  * /// - Mobile-First Approach -///
  *Index
  *
- * - Variables ()
- * - 
- * - 
- * - 
- * //
- * - Tablet-Version ()
- * - Desktop-Version ()
- *
+ * - Variables (17 - 53)
+ * - General (55 - 136)
+ * - Header (138 - 307)
+ * - Portfolio (309 - 353)
+ * - Description (355 - 410)
+ * - Footer (412 - 518)
  **/
 
 
@@ -388,6 +386,7 @@ a {
 
 @media (min-width: 768px) {
     .description-container {
+        margin: 0 auto;
         max-width: 573px;
     }
 

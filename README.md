@@ -27,12 +27,15 @@ Users should be able to:
 ### Screenshot
 
 Desktop-Version
+
 ![Desktop-Version](/assets/ss_desktop.png)
 
 Tablet-Version
+
 ![Tablet-Version](/assets/ss_tablet.png)
 
 Mobile-Version
+
 ![Mobile-Version](/assets/ss_mobile.png)
 
 ### Links
