@@ -40,8 +40,8 @@ Mobile-Version
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://kevinschupp.de/meet-landing-page/index.html)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-landing-page-html-css-and-flexbox-Ff7SdDDks5)
+- Live Site URL: [Add live site URL here](https://kks1991.github.io/meet-landing-page/)
 
 ## My process
 
