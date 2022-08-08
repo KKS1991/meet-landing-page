@@ -5,11 +5,11 @@
  *Index
  *
  * - Variables (17 - 53)
- * - General (55 - 136)
- * - Header (138 - 307)
- * - Portfolio (309 - 353)
- * - Description (355 - 410)
- * - Footer (412 - 518)
+ * - General (55 - 135)
+ * - Header (137 - 302)
+ * - Portfolio (304 - 348)
+ * - Description (350 - 405)
+ * - Footer (407 - 513)
  **/
 
 
@@ -89,11 +89,10 @@ a {
 .btn {
     width: 12.0625rem;
     height: 3.625rem;
-    margin: 0 auto;
+    margin: 0 auto 1rem;
     font-size: var(--fs-btn);
     font-weight: 600;
     color: var(--clr-light);
-    margin-bottom: 1rem;
     text-decoration: none;
     border-radius: 50px;
     padding-top: 1rem;
@@ -148,13 +147,17 @@ a {
 
 .header-image--container {
     display: flex;
+    justify-content: space-around;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: visible;
     margin-bottom: 2.2rem;
+    z-index: -1;
 }
 
 .header-image {
     width: 100%;
     position: relative;
-    overflow: hidden;
 }
 
 .header-image--left {
@@ -174,12 +177,9 @@ a {
         margin-top: 5rem;
     }
 
-    .header-image--container {
-        justify-content: space-around;
-    }
-
     .header-image {
         width: 27%;
+        overflow: hidden;
     }
     
     .header-image--left {
@@ -189,7 +189,6 @@ a {
     .header-image--right {
         top: 65px;
         right: -200px;
-
     }
 }
 
@@ -200,7 +199,6 @@ a {
     
     .header-image--right {
         right: -250px;
-
     }
 }
 
