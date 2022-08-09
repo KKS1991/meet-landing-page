@@ -34,10 +34,6 @@ Tablet-Version
 
 ![Tablet-Version](/assets/ss_tablet.png)
 
-Mobile-Version
-
-![Mobile-Version](/assets/ss_mobile.png)
-
 ### Links
 
 - Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-landing-page-html-css-and-flexbox-Ff7SdDDks5)
