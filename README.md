@@ -30,10 +30,6 @@ Desktop-Version
 
 ![Desktop-Version](/assets/ss_desktop.png)
 
-Tablet-Version
-
-![Tablet-Version](/assets/ss_tablet.png)
-
 ### Links
 
 - Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-landing-page-html-css-and-flexbox-Ff7SdDDks5)
