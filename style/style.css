@@ -6,10 +6,10 @@
  *
  * - Variables (17 - 53)
  * - General (55 - 135)
- * - Header (137 - 302)
- * - Portfolio (304 - 348)
- * - Description (350 - 405)
- * - Footer (407 - 513)
+ * - Header (137 - 303)
+ * - Portfolio (305 - 349)
+ * - Description (351 - 406)
+ * - Footer (408 - 514)
  **/
 
 
@@ -129,7 +129,7 @@ a {
 /*Desktop-Version*/
 
 @media (min-width: 1440px) {
-    .numbering-one {
+    .numbering:nth-of-type(1) {
         margin-top: -11rem;
     }
 }
@@ -148,11 +148,9 @@ a {
 .header-image--container {
     display: flex;
     justify-content: space-around;
-    position: relative;
     overflow-x: hidden;
-    overflow-y: visible;
     margin-bottom: 2.2rem;
-    z-index: -1;
+    padding-bottom: 5rem;
 }
 
 .header-image {
